@@ -10,6 +10,11 @@
     src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
+@font-face {
+    font-family: inka;
+    src: url(../fonts/Inika-Bold.ttf);
+}
+
 nav {
     width: 100%;
     height: 72px;
@@ -19,7 +24,7 @@ nav {
 
 img[alt="header logo"] {
     padding: 13.5px;
-    width:173.66px;
+    width: 173.66px;
     height: 48px;
     float: left;
 }
@@ -56,7 +61,7 @@ nav button {
     margin: 7.5px 0;
 }
 
-nav > div {
+nav>div {
     text-align: center;
     height: 48px;
 }
@@ -83,13 +88,12 @@ a {
 
 .first-container {
     padding: 0 32px;
-    margin-bottom: 64px;
 }
 
 .heading {
     width: 768px;
     margin: 0 auto;
-    margin-bottom: 32px; 
+    margin-bottom: 32px;
 }
 
 .title {
@@ -97,7 +101,7 @@ a {
     font-size: 40px;
     line-height: 48.41px;
     text-align: center;
-    color: #181D27; 
+    color: #181D27;
     margin-bottom: 20px;
 }
 
@@ -122,6 +126,336 @@ a {
     margin-top: 32px;
     height: 590px;
 }
+
+.vertical-card {
+    display: inline-block;
+    width: 372px;
+    height: 590px;
+    background-color: #FFFFFF;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    vertical-align: middle;
+}
+
+#middle-card {
+    margin: 0 29.5px;
+}
+
+.first-item-header {
+    display: inline-block;
+    width: 372px;
+    height: 332px;
+    padding: 40px 32px;
+}
+
+.head-price {
+    display: inline-block;
+    width: 308px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #F9F5FF;
+    border: 1px solid #E9D7FE;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;
+}
+
+.price-item {
+    width: 308px;
+    margin-top: 16px;
+    height: 92px;
+}
+
+.price {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.support-text {
+    color: #535862;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.action {
+    margin-top: 16px;
+    width: 308px;
+    height: 108px;
+}
+
+.purple-button {
+    background-color: #7F56D9;
+    border: 2px solid #FFFFFF1F;
+    width: 308px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.white-button {
+    background-color: #FFFFFF;
+    border: 2px solid #D5D7DA;
+    width: 308px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-weight: 600;
+    color: #414651;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.first-item-content {
+    width: 372px;
+    height: 257px;
+    padding: 40px 32px;
+    padding-top: 0;
+}
+
+.hr-div {
+    width: 308px;
+    height: 1px;
+    background-color: #E9EAEB;
+    margin-bottom: 32px;
+}
+
+.check-item {
+    width: 308px;
+    height: 184px;
+}
+
+.check-content {
+    width: 308px;
+    height: 24px;
+    color: #535862;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.check-circle {
+    border-radius: 9999px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.check-content div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.seccond-container {
+    width: 1248px;
+    height: 1290px;
+    padding: 32px 0;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin: 64px 0;
+}
+
+#seccond-content {
+    max-width: 768px;
+    width: 100%;
+    height: 1100px;
+    margin-top: 32px;
+    margin: 0 auto;
+}
+
+.FAQ-item {
+    width: 768px;
+    height: 168px;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+#question-one {
+    background-color: #E4E4E4;
+}
+
+#question-two {
+    background-color: #FFE5E5;
+    border: 2px solid #FF2323;
+    height: 144px;
+}
+
+#question-three {
+    background-color: #E9D7FF;
+}
+
+#question-four {
+    background-color: #F7F4FF;
+}
+
+#question-five {
+    background-color: #DCE6FF;
+    border: 4px solid #326DFF;
+}
+
+#question-six {
+    background-color: #FFD5E7;
+}
+
+.faq-sup-text {
+    color: #535862;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.item-container {
+    width: 625px;
+    margin-left: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question {
+    display: inline-block;
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.arrow {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+}
+
+.third-container {
+    height: 758px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 32px 0;
+}
+
+#third-content {
+    width: 1248px;
+    height: 536px;
+    padding: 0 32px;
+    margin-top: 64px;
+}
+
+#cards {
+    width: 1184px;
+    height: 536px;
+}
+
+.card {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    padding: 32px;
+    width: 576px;
+    height: 256px;
+    vertical-align: middle;
+}
+
+.card-text {
+    color: #181D27;
+    font-family: inka;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#leftMargin {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+#bottomMargin {
+    margin-bottom: 24px;
+}
+
+#topMargin {
+   margin-left: 24px;
+}
+
+.atribution {
+    width: 512px;
+    height: 52px;
+    margin-top: 80px;
+}
+
+.avatar-text {
+    display: inline-block;
+    width: 370px;
+    height: 52px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border: 0.75px solid #00000014;
+    border-radius: 9999px;
+    vertical-align: middle;
+}
+
+.avatar-text > div {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.veriffed-text {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.veriffed {
+    width: 16x;
+    height: 16px;
+}
+
+.nonSpace {
+    margin-top: 50px;
+}
+
+.company-logo {
+    width: 134px;
+    height: 32px;
+}
+
+footer {
+    width: 100%;
+    height: 240px;
+    background-color: #FFFFFF;
+}
+
 
 
 
